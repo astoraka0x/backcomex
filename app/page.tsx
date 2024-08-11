@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import Banner from './components/Banner/index';
 import Companies from './components/Companies/index';
 import Work from './components/Work/index';

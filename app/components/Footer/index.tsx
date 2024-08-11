@@ -36,7 +36,7 @@ const footer = () => {
         <div className="mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
           {/* COLUMN-1 */}
           <div className="col-span-6">
-            <img
+            <Image
               className="block h-12 w-20px mb-4"
               src={"/images/Logo/logo.svg"}
               alt="Crypto-Logo"
@@ -52,7 +52,7 @@ const footer = () => {
             <div className="flex gap-4">
               {socialLinks.map((items, i) => (
                 <Link href={items.href} key={i}>
-                  <img
+                  <Image
                     src={items.imgsrc}
                     alt={items.imgsrc}
                     className="footer-icons"

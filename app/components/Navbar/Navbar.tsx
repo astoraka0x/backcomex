@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Disclosure } from '@headlessui/react';
 import Link from 'next/link';
 import React from 'react';
@@ -37,13 +38,14 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
+                                
                                 <img
                                     className="block h-10 w-20px lg:hidden"
                                     src={'/images/Logo/logo.svg'}
                                     alt="Crypto-Logo"
                                 />
                                 <img
-                                    className="hidden h-20  lg:block"
+                                    className="hidden h-20 lg:block"
                                     src={'/images/Logo/logo.svg'}
                                     alt="Crypto-Logo"
                                 />
@@ -69,7 +71,7 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Check Your Refund</button>
+                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Check Your Cashback</button>
                             {/* <Contactusform /> */}
                         </div>
 

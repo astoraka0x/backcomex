@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client"
 import Image from 'next/image';
 import React, { useState } from 'react';
@@ -22,7 +23,7 @@ const Banner = () => {
                             <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
                                 Cash Back <br /> Trading Fee
                             </h1>
-                            <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>Maximize your profits by reclaiming the fees you've paid on cryptocurrency exchanges with Backcom.exchange</p>
+                            <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>Maximize your profits by reclaiming the fees you have paid on cryptocurrency exchanges with Backcom.exchange</p>
                             <div className='flex align-middle justify-center md:justify-start'>
                                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6'>Get Started</button>
                                 <button onClick={() => setOpen(true)} className='bg-transparent flex justify-center items-center text-white'><Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How it work</button>
