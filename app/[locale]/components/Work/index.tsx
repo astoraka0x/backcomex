@@ -1,4 +1,5 @@
 "use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -10,49 +11,51 @@ interface workdata {
   rate: string;
 }
 
-const workdata: workdata[] = [
-  {
-    imgSrc: "/images/Companies/kucoin.svg",
-    heading: "Kucoin",
-    type: "Daily",
-    refcode: "34098-14",
-    rate: "50%",
-  },
-  {
-    imgSrc: "/images/Companies/binance.png",
-    heading: "Binance",
-    type: "Daily",
-    refcode: "12345-67",
-    rate: "25%",
-  },
-  {
-    imgSrc: "/images/Companies/coinex.svg",
-    heading: "Coinex",
-    type: "Daily",
-    refcode: "98765-43",
-    rate: "10%",
-  },
-];
 
 const Work = () => {
   const [copied, setCopied] = useState<string | null>(null);
-
+  
   const handleCopy = (refCode: string) => {
     navigator.clipboard.writeText(refCode);
     setCopied(refCode);
     setTimeout(() => setCopied(null), 3000); // Reset after 2 seconds
   };
+
+  const t= useTranslations('Work');
+  const workdata: workdata[] = [
+    {
+      imgSrc: "/images/Companies/kucoin.svg",
+      heading: "Kucoin",
+      type: t('daily'),
+      refcode: "34098-14",
+      rate: "50%",
+    },
+    {
+      imgSrc: "/images/Companies/binance.png",
+      heading: "Binance",
+      type: t('daily'),
+      refcode: t('comming-soon'),
+      rate: t('comming-soon'),
+    },
+    {
+      imgSrc: "/images/Companies/coinex.svg",
+      heading: "Coinex",
+      type: t('daily'),
+      refcode: t('comming-soon'),
+      rate: t('comming-soon'),
+    },
+  ];
+  
   return (
     <div id="exchange-section">
       <div className="mx-auto max-w-7xl mt-16 px-6 mb-20 relative">
         <div className="radial-bgone hidden lg:block"></div>
         <div className="text-center mb-14">
           <h3 className="text-offwhite text-3xl md:text-5xl font-bold mb-3">
-            How it work
+            {t('how-it-work')}
           </h3>
           <p className="text-bluish md:text-lg font-normal leading-8">
-            Simply use or switch to our referral code, and your trading fees
-            will be refunded daily.
+           {t('how-it-work-explaind')}
           </p>
         </div>
 

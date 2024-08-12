@@ -11,7 +11,6 @@ interface DrawerProps {
 }
 
 const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
-
     return (
         <main
             className={

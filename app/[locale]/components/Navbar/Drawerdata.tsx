@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import LocaleSwitcher from "../LocalSwitcher/LocalSwitcher";
+import { useTranslations } from "next-intl";
 
 interface NavigationItem {
     name: string;
@@ -8,18 +9,20 @@ interface NavigationItem {
     current: boolean;
 }
 
-const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#home-section', current: false },
-    { name: 'Exchange', href: '#exchange-section', current: false },
-    { name: 'Features', href: '#features-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-]
+
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
 const Data = () => {
+    const t= useTranslations('Navbar');
+    const navigation: NavigationItem[] = [
+        { name: t('home'), href: '#home-section', current: false },
+        { name: t('exchange'), href: '#exchange-section', current: false },
+        { name: t('features'), href: '#features-section', current: false },
+        { name: t('faq'), href: '#faq-section', current: false },
+    ]
     return (
         <div className="rounded-md max-w-sm w-full">
             <div className="flex-1 space-y-4 py-1">
@@ -40,7 +43,7 @@ const Data = () => {
                         ))}
                         <div className="mt-4"></div>
                         <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
-                            Check Your Refund
+                            {t('check-your-refund')}
                         </button>
                         <LocaleSwitcher />
                     </div>

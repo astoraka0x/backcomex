@@ -8,7 +8,7 @@ import {useTranslations} from 'next-intl';
 
 const Banner = () => {
     const [isOpen, setOpen] = useState(false)
-    const t = useTranslations('LandingPage');
+    const t = useTranslations('Banner');
 
     return (
         <div className='bg-image relative' id="home-section">
@@ -22,7 +22,7 @@ const Banner = () => {
                     <div className='grid grid-cols-1 lg:grid-cols-12 my-16'>
                         <div className='arrowTwo'></div>
                         <div className='col-span-7'>
-                            <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
+                            <h1 className="text-4xl lg:text-6xl font-bold mb-5 text-white md:4px md:text-start text-center">
                                 {t('Cashback')} <br /> {t('Trading Fees')} 
                             </h1>
                             <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'> {t('Banner_Title')}</p>

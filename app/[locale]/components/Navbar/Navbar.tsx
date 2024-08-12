@@ -6,6 +6,7 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import LocaleSwitcher from '../LocalSwitcher/LocalSwitcher';
+import { useTranslations } from 'next-intl';
 // import Contactusform from './Contactus';
 
 interface NavigationItem {
@@ -14,12 +15,7 @@ interface NavigationItem {
     current: boolean;
 }
 
-const navigation: NavigationItem[] = [
-    { name: 'Home', href: '#home-section', current: false },
-    { name: 'Exchange', href: '#exchange-section', current: false },
-    { name: 'Features', href: '#features-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-]
+
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
@@ -28,7 +24,13 @@ function classNames(...classes: string[]) {
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = React.useState(false);
-
+    const t= useTranslations('Navbar');
+    const navigation: NavigationItem[] = [
+        { name: t('home'), href: '#home-section', current: false },
+        { name: t('exchange'), href: '#exchange-section', current: false },
+        { name: t('features'), href: '#features-section', current: false },
+        { name: t('faq'), href: '#faq-section', current: false },
+    ]
     return (
         <Disclosure as="nav" className="navbar">
             <>
@@ -72,7 +74,7 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>Check Your Cashback</button>
+                            <button className='hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white'>{t('check-your-refund')}</button>
                            <LocaleSwitcher/>
                             {/* <Contactusform /> */}
                         </div>

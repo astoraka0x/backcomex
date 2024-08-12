@@ -1,0 +1,45 @@
+{
+  "Banner": {
+    "Banner_Title": "Tối đa hóa lợi nhuận của bạn bằng cách lấy lại các khoản phí bạn đã trả khi trao đổi tiền điện tử với Backcom.exchange",
+    "Cashback": "Hoàn tiền",
+    "Get_Started": "Bắt đầu",
+    "Trading Fees": "Phí giao dịch"
+  },
+  "Faq": {
+    "a1": "Backcom.exchange là một dịch vụ được thiết kế để các nhà giao dịch lấy lại khoản phí họ đã trả cho các sàn giao dịch tiền điện tử. \nNền tảng của chúng tôi giúp bạn thu hồi các khoản phí này và nâng cao lợi nhuận giao dịch của bạn.",
+    "a2": "Chúng tôi tích hợp với tài khoản giao dịch của bạn trên nhiều sàn giao dịch khác nhau, theo dõi các khoản phí bạn đã thanh toán và sau đó trả lại các khoản phí đó trực tiếp cho bạn.",
+    "a3": "Backcom.exchange hỗ trợ nhiều loại sàn giao dịch tiền điện tử phổ biến. \nKiểm tra trang tính năng của chúng tôi để có danh sách đầy đủ.",
+    "q1": "1. Backcom.exchange là gì?",
+    "q2": "2. Backcom.exchange hoạt động như thế nào?",
+    "q3": "3. Sàn giao dịch nào được hỗ trợ?"
+  },
+  "Features": {
+    "best-rate-cashback-for-trader": "Tỷ lệ hoàn tiền tốt nhất cho nhà giao dịch",
+    "daily-24-7-cashback": "Hoàn tiền 24/7 hàng ngày",
+    "data-security-and-privacy": "Bảo mật dữ liệu và quyền riêng tư",
+    "high-rate": "Tỷ lệ cao",
+    "real-time-cashback": "Hoàn tiền theo thời gian thực",
+    "secure-storage": "Lưu trữ an toàn"
+  },
+  "Footer": {
+    "all-rights-reserved-by": "Mọi quyền được bảo lưu bởi",
+    "connect-with-us": "Kết nối với Hoa Kỳ"
+  },
+  "LocaleSwitcher": {
+    "label": "Thay đổi ngôn ngữ",
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
+  },
+  "Navbar": {
+    "check-your-refund": "Kiểm tra tiền hoàn",
+    "exchange": "Trao đổi",
+    "faq": "Hỏi & Đáp",
+    "features": "Đặc trưng",
+    "home": "Trang chủ"
+  },
+  "Work": {
+    "comming-soon": "Sắp có",
+    "daily": "Hằng ngày",
+    "how-it-work": "Nó hoạt động như thế nào",
+    "how-it-work-explaind": "Chỉ cần sử dụng hoặc chuyển sang mã giới thiệu của chúng tôi và phí giao dịch của bạn sẽ được hoàn lại hàng ngày."
+  }
+}

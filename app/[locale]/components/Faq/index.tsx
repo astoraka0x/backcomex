@@ -2,31 +2,33 @@
 import Image from "next/image";
 import { Disclosure } from '@headlessui/react';
 import { ChevronUpIcon } from '@heroicons/react/20/solid';
+import { useTranslations } from "next-intl";
 
 interface faqdata {
     heading: string;
     subheading: string;
 }
-const faqdata: faqdata[] = [
-    {
-        heading: "1. What is Backcom.exchange?",
-        subheading: "Backcom.exchange is a service designed for traders to reclaim the fees they've paid to cryptocurrency exchanges. Our platform helps you recover these fees and enhances your trading profitability."
-    },
-    {
-        heading: "2. How does Backcom.exchange work?",
-        subheading: "We integrate with your trading accounts on various exchanges, track the fees you've paid, and then return those fees directly to you."
-    },
-    {
-        heading: "3. Which exchanges are supported?",
-        subheading: "Backcom.exchange supports a wide range of popular cryptocurrency exchanges. Check our features page for a full list."
-    },
-    // {
-    //     heading: "4. How do I start using Backcom.exchange?",
-    //     subheading: "Simply sign up, connect your trading accounts, and let us handle the rest. You'll start seeing fee returns in no time."
-    // },
-];
+
 
 const Faq = () => {
+    const t= useTranslations('Faq');
+    const faqdata: faqdata[] = [
+        {
+            heading: t('q1'),
+            subheading: t('a1')
+        },
+        {
+            heading: t('q2'),
+            subheading: t('a2') },
+        {
+            heading: t('q3'),
+            subheading: t('a3')
+        },
+        // {
+        //     heading: "4. How do I start using Backcom.exchange?",
+        //     subheading: "Simply sign up, connect your trading accounts, and let us handle the rest. You'll start seeing fee returns in no time."
+        // },
+    ];
     return (
         <div className="my-20 px-6" id="faq-section">
             <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">Frequently Asked And Question</h3>

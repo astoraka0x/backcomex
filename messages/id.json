@@ -1,0 +1,45 @@
+{
+  "Banner": {
+    "Banner_Title": "Maksimalkan keuntungan Anda dengan mendapatkan kembali biaya yang telah Anda bayarkan pada pertukaran mata uang kripto dengan Backcom.exchange",
+    "Cashback": "Uang kembali",
+    "Get_Started": "Memulai",
+    "Trading Fees": "Biaya Perdagangan"
+  },
+  "Faq": {
+    "a1": "Backcom.exchange adalah layanan yang dirancang bagi para pedagang untuk mendapatkan kembali biaya yang telah mereka bayarkan ke bursa mata uang kripto. \nPlatform kami membantu Anda memulihkan biaya ini dan meningkatkan profitabilitas perdagangan Anda.",
+    "a2": "Kami berintegrasi dengan akun perdagangan Anda di berbagai bursa, melacak biaya yang telah Anda bayarkan, dan kemudian mengembalikan biaya tersebut langsung kepada Anda.",
+    "a3": "Backcom.exchange mendukung berbagai pertukaran mata uang kripto populer. \nPeriksa halaman fitur kami untuk daftar lengkap.",
+    "q1": "1. Apa itu Backcom.exchange?",
+    "q2": "2. Bagaimana cara kerja Backcom.exchange?",
+    "q3": "3. Pertukaran mana yang didukung?"
+  },
+  "Features": {
+    "best-rate-cashback-for-trader": "Cashback tingkat terbaik untuk pedagang",
+    "daily-24-7-cashback": "Uang kembali setiap hari 24/7",
+    "data-security-and-privacy": "Keamanan dan privasi data",
+    "high-rate": "Tingkat tinggi",
+    "real-time-cashback": "Uang kembali waktu nyata",
+    "secure-storage": "Penyimpanan aman"
+  },
+  "Footer": {
+    "all-rights-reserved-by": "Semua Hak Dilindungi oleh",
+    "connect-with-us": "Terhubung Dengan AS"
+  },
+  "LocaleSwitcher": {
+    "label": "Ganti bahasa",
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
+  },
+  "Navbar": {
+    "check-your-refund": "Cek Pengembalian",
+    "exchange": "Menukarkan",
+    "faq": "Tanya",
+    "features": "Fitur",
+    "home": "Rumah"
+  },
+  "Work": {
+    "comming-soon": "Segera Hadir",
+    "daily": "Sehari-hari",
+    "how-it-work": "Bagaimana cara kerjanya",
+    "how-it-work-explaind": "Cukup gunakan atau alihkan ke kode referensi kami, dan biaya perdagangan Anda akan dikembalikan setiap hari."
+  }
+}

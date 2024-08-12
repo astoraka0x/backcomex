@@ -1,4 +1,5 @@
-import Image from "next/image";
+//eslint-disable
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 // MIDDLE LINKS DATA
@@ -13,14 +14,6 @@ interface Social {
   href: string;
 }
 
-const products: ProductType[] = [
-  {
-    id: 1,
-    section: "Useful Links",
-    link: ["Home", "Exchange", "Features", "FAQ"],
-  },
-];
-
 const socialLinks: Social[] = [
   { imgsrc: "/images/Footer/insta.svg", href: "https://instagram.com/" },
   { imgsrc: "/images/Footer/dribble.svg", href: "https://dribble.com/" },
@@ -28,7 +21,9 @@ const socialLinks: Social[] = [
   { imgsrc: "/images/Footer/youtube.svg", href: "https://youtube.com/" },
 ];
 
-const footer = () => {
+const Footer = () => {
+  const t= useTranslations('Footer');
+
   return (
     <div className=" relative">
       <div className="radial-bg hidden lg:block"></div>
@@ -46,7 +41,7 @@ const footer = () => {
           {/* COLUMN-2/3 */}
           <div className="col-span-6">
             <h3 className="text-lightblue text-sm font-normal leading-9 ">
-              Connect With US
+              {t('connect-with-us')}
             </h3>
 
             <div className="flex gap-4">
@@ -67,7 +62,7 @@ const footer = () => {
 
         <div className="py-8 px-4 border-t border-t-lightblue">
           <h3 className="text-center text-offwhite">
-            @2024 - All Rights Reserved by{" "}
+            @2024 - {t('all-rights-reserved-by')} {""}
             <Link href="https://backcom.exchange" target="_blank">
               backcom.exchange
             </Link>
@@ -78,4 +73,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

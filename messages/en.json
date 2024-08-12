@@ -1,0 +1,45 @@
+{
+  "Banner": {
+    "Cashback": "Cashback",
+    "Trading Fees": "Trading Fees",
+    "Banner_Title": "Maximize your profits by reclaiming the fees you have paid on cryptocurrency exchanges with Backcom.exchange",
+    "Get_Started": "Get Started"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
+  },
+  "Faq": {
+    "q1": "1. What is Backcom.exchange?",
+    "a1": "Backcom.exchange is a service designed for traders to reclaim the fees they've paid to cryptocurrency exchanges. Our platform helps you recover these fees and enhances your trading profitability.",
+    "q2": "2. How does Backcom.exchange work?",
+    "a2": "We integrate with your trading accounts on various exchanges, track the fees you've paid, and then return those fees directly to you.",
+    "q3": "3. Which exchanges are supported?",
+    "a3": "Backcom.exchange supports a wide range of popular cryptocurrency exchanges. Check our features page for a full list."
+  },
+  "Features": {
+    "secure-storage": "Secure storage",
+    "data-security-and-privacy": "Data security and privacy",
+    "high-rate": "High-rate",
+    "best-rate-cashback-for-trader": "Best rate cashback for trader",
+    "real-time-cashback": "Real-time cashback",
+    "daily-24-7-cashback": "Daily 24/7 cashback"
+  },
+  "Navbar": {
+    "home": "Home",
+    "exchange": "Exchange",
+    "features": "Features",
+    "faq": "FAQ",
+    "check-your-refund": "Check Your Refund"
+  },
+  "Footer": {
+    "connect-with-us": "Connect With US",
+    "all-rights-reserved-by": "All Rights Reserved by"
+  },
+  "Work": {
+    "daily": "Daily",
+    "comming-soon": "Comming Soon",
+    "how-it-work": "How it work",
+    "how-it-work-explaind": "Simply use or switch to our referral code, and your trading fees will be refunded daily."
+  }
+}
