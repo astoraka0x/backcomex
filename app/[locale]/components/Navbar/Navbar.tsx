@@ -7,7 +7,8 @@ import Drawerdata from "./Drawerdata";
 import LocaleSwitcher from '../LocalSwitcher/LocalSwitcher';
 import { useTranslations } from 'next-intl';
 // import Contactusform from './Contactus';
-import {Link} from '@/navigation';
+// import {Link} from '@/navigation';
+import Link from 'next/link';
 
 interface NavigationItem {
     name: string;
