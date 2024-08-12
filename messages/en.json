@@ -10,6 +10,7 @@
     "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
   },
   "Faq": {
+    "frequently-asked-and-question": "Frequently Asked And Question",
     "q1": "1. What is Backcom.exchange?",
     "a1": "Backcom.exchange is a service designed for traders to reclaim the fees they've paid to cryptocurrency exchanges. Our platform helps you recover these fees and enhances your trading profitability.",
     "q2": "2. How does Backcom.exchange work?",
