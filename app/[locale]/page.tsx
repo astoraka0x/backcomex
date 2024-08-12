@@ -15,7 +15,7 @@ export default function Home() {
       <Banner />
       <Companies />
       <Work />
-      <Table />
+      {/* <Table /> */}
       <Features />
       {/* <Simple /> */}
       {/* <Trade /> */}

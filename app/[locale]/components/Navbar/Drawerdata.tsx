@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import LocaleSwitcher from "../LocalSwitcher/LocalSwitcher";
 
 interface NavigationItem {
     name: string;
@@ -41,6 +42,7 @@ const Data = () => {
                         <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
                             Check Your Refund
                         </button>
+                        <LocaleSwitcher />
                     </div>
                 </div>
             </div>

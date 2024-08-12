@@ -1,0 +1,12 @@
+{
+  "LandingPage": {
+    "Cashback": "Hoàn tiền",
+    "Trading Fees": "Phí giao dịch",
+    "Banner_Title": "Tối đa hóa lợi nhuận của bạn bằng cách hoàn lại các khoản phí bạn đã trả trên các sàn giao dịch tiền điện tử với Backcom.exchange",
+    "Get_Started": "Bắt đầu"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
+  }
+}
