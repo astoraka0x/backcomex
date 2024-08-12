@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { ReactNode } from "react";
 import { XMarkIcon } from '@heroicons/react/24/outline'
-import Link from "next/link";
 
 
 interface DrawerProps {

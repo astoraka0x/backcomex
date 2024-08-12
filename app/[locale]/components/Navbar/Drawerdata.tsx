@@ -1,5 +1,6 @@
+//eslint-disable
 import React from "react";
-import Link from "next/link";
+import {Link} from '@/navigation';
 import LocaleSwitcher from "../LocalSwitcher/LocalSwitcher";
 import { useTranslations } from "next-intl";
 

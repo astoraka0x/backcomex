@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+/* eslint-disable */
 import { Disclosure } from '@headlessui/react';
-import Link from 'next/link';
 import React from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
@@ -8,6 +7,7 @@ import Drawerdata from "./Drawerdata";
 import LocaleSwitcher from '../LocalSwitcher/LocalSwitcher';
 import { useTranslations } from 'next-intl';
 // import Contactusform from './Contactus';
+import {Link} from '@/navigation';
 
 interface NavigationItem {
     name: string;
