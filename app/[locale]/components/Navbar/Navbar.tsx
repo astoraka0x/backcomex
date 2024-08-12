@@ -48,7 +48,7 @@ const Navbar = () => {
                                     alt="Crypto-Logo"
                                 />
                                 <img
-                                    className="hidden h-20 lg:block"
+                                    className="hidden h-14 w-20px lg:block"
                                     src={'/images/Logo/logo.svg'}
                                     alt="Crypto-Logo"
                                 />
