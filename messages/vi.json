@@ -28,7 +28,7 @@
   },
   "LocaleSwitcher": {
     "label": "Thay đổi ngôn ngữ",
-    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} ko {🇰🇷 Korean} zh {🇨🇳 China} other {Unknown}}"
   },
   "Navbar": {
     "check-your-refund": "Kiểm tra tiền hoàn",
@@ -41,6 +41,10 @@
     "comming-soon": "Sắp có",
     "daily": "Hằng ngày",
     "how-it-work": "Nó hoạt động như thế nào",
-    "how-it-work-explaind": "Chỉ cần sử dụng hoặc chuyển sang mã giới thiệu của chúng tôi và phí giao dịch của bạn sẽ được hoàn lại hàng ngày."
+    "how-it-work-explaind": "Chỉ cần sử dụng hoặc chuyển sang mã giới thiệu của chúng tôi và phí giao dịch của bạn sẽ được hoàn lại hàng ngày.",
+    "cashback-rate": "Tỷ lệ hoàn tiền",
+    "copied": "Đã sao chép",
+    "ref-code": "Mã giới thiệu",
+    "type": "Kiểu"
   }
 }

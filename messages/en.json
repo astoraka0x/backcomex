@@ -7,7 +7,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} ko {🇰🇷 Korean} zh {🇨🇳 China} other {Unknown}}"
   },
   "Faq": {
     "frequently-asked-and-question": "Frequently Asked And Question",
@@ -41,6 +41,10 @@
     "daily": "Daily",
     "comming-soon": "Comming Soon",
     "how-it-work": "How it work",
-    "how-it-work-explaind": "Simply use or switch to our referral code, and your trading fees will be refunded daily."
+    "how-it-work-explaind": "Simply use or switch to our referral code, and your trading fees will be refunded daily.",
+    "type": "Type",
+    "ref-code": "Ref Code",
+    "copied": "Copied",
+    "cashback-rate": "Cashback Rate"
   }
 }

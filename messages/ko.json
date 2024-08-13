@@ -1,0 +1,50 @@
+{
+  "Banner": {
+    "Banner_Title": "Backcom.exchange를 통해 암호화폐 거래소에 지불한 수수료를 회수하여 수익을 극대화하세요.",
+    "Cashback": "캐시백",
+    "Get_Started": "시작하기",
+    "Trading Fees": "거래 수수료"
+  },
+  "Faq": {
+    "a1": "Backcom.exchange는 거래자가 암호화폐 거래소에 지불한 수수료를 회수할 수 있도록 설계된 서비스입니다. \n우리 플랫폼은 이러한 수수료를 회수하고 거래 수익성을 향상시키는 데 도움이 됩니다.",
+    "a2": "우리는 다양한 거래소의 거래 계좌를 통합하고, 귀하가 지불한 수수료를 추적한 다음 해당 수수료를 귀하에게 직접 반환합니다.",
+    "a3": "Backcom.exchange는 널리 사용되는 다양한 암호화폐 거래소를 지원합니다. \n전체 목록을 보려면 기능 페이지를 확인하세요.",
+    "frequently-asked-and-question": "자주 묻는 질문",
+    "q1": "1. Backcom.exchange란 무엇입니까?",
+    "q2": "2. Backcom.exchange는 어떻게 작동합니까?",
+    "q3": "3. 어떤 거래소가 지원되나요?"
+  },
+  "Features": {
+    "best-rate-cashback-for-trader": "트레이더를 위한 최고의 캐시백",
+    "daily-24-7-cashback": "매일 24시간 캐시백",
+    "data-security-and-privacy": "데이터 보안 및 개인정보 보호",
+    "high-rate": "고율",
+    "real-time-cashback": "실시간 캐시백",
+    "secure-storage": "안전한 저장"
+  },
+  "Footer": {
+    "all-rights-reserved-by": "모든 권리 보유",
+    "connect-with-us": "미국과 연결"
+  },
+  "LocaleSwitcher": {
+    "label": "언어 변경",
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} ko {🇰🇷 Korean} zh {🇨🇳 China} other {Unknown}}"
+  },
+  "Navbar": {
+    "check-your-refund": "환불 확인",
+    "exchange": "교환",
+    "faq": "FAQ",
+    "features": "특징",
+    "home": "집"
+  },
+  "Work": {
+    "cashback-rate": "캐시백 비율",
+    "comming-soon": "출시 예정",
+    "copied": "복사됨",
+    "daily": "일일",
+    "how-it-work": "작동 원리",
+    "how-it-work-explaind": "추천 코드를 사용하거나 전환하면 거래 수수료가 매일 환불됩니다.",
+    "ref-code": "참조 코드",
+    "type": "유형"
+  }
+}

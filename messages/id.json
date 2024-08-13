@@ -28,7 +28,7 @@
   },
   "LocaleSwitcher": {
     "label": "Ganti bahasa",
-    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} other {Unknown}}"
+    "locale": "{locale, select, id {🇮🇩 Indonesian} en {🇺🇸 English} vi {🇻🇳 Vietnamese} ko {🇰🇷 Korean} zh {🇨🇳 China} other {Unknown}}"
   },
   "Navbar": {
     "check-your-refund": "Cek Pengembalian",
@@ -41,6 +41,10 @@
     "comming-soon": "Segera Hadir",
     "daily": "Sehari-hari",
     "how-it-work": "Bagaimana cara kerjanya",
-    "how-it-work-explaind": "Cukup gunakan atau alihkan ke kode referensi kami, dan biaya perdagangan Anda akan dikembalikan setiap hari."
+    "how-it-work-explaind": "Cukup gunakan atau alihkan ke kode referensi kami, dan biaya perdagangan Anda akan dikembalikan setiap hari.",
+    "cashback-rate": "Tingkat Uang Kembali",
+    "copied": "Disalin",
+    "ref-code": "Kode Referensi",
+    "type": "Jenis"
   }
 }
