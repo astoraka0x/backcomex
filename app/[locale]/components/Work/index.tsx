@@ -44,6 +44,20 @@ const Work = () => {
       refcode: t('comming-soon'),
       rate: t('comming-soon'),
     },
+    {
+      imgSrc: "/images/Companies/mexc.svg",
+      heading: "Mexc",
+      type: t('daily'),
+      refcode: t('comming-soon'),
+      rate: t('comming-soon'),
+    },
+    {
+      imgSrc: "/images/Companies/bybit.svg",
+      heading: "Bybit",
+      type: t('daily'),
+      refcode: t('comming-soon'),
+      rate: t('comming-soon'),
+    },
   ];
   
   return (
@@ -68,6 +82,7 @@ const Work = () => {
                   alt={items.imgSrc}
                   width={100}
                   height={100}
+                  className="object-contain h-[30px] w-[100px]"
                 />
               </div>
               <div>

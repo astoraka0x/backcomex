@@ -20,10 +20,10 @@ const data: Data[] = [
     imgSrc: "/images/Companies/binance.png",
   },
   {
-    imgSrc: "/images/Companies/kucoin.svg",
+    imgSrc: "/images/Companies/mexc.svg",
   },
   {
-    imgSrc: "/images/Companies/coinex.svg",
+    imgSrc: "/images/Companies/bybit.svg",
   },
   {
     imgSrc: "/images/Companies/binance.png",
@@ -89,8 +89,8 @@ export default class MultipleItems extends Component {
           <div>
             <Slider {...settings}>
               {data.map((item, i) => (
-                <div key={i} data-index={i}>
-                  <img src={item.imgSrc} className="h-10" alt={item.imgSrc} />
+                <div key={i} data-index={i} >
+                  <img src={item.imgSrc} className="h-10 ml-auto mr-auto" alt={item.imgSrc} />
                 </div>
               ))}
             </Slider>
