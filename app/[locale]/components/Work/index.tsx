@@ -31,6 +31,13 @@ const Work = () => {
       rate: "50%",
     },
     {
+      imgSrc: "/images/Companies/mexc.svg",
+      heading: "Mexc",
+      type: t('daily'),
+      refcode: '7393749',
+      rate: "50%",
+    },
+    {
       imgSrc: "/images/Companies/binance.png",
       heading: "Binance",
       type: t('daily'),
@@ -44,13 +51,7 @@ const Work = () => {
       refcode: t('comming-soon'),
       rate: t('comming-soon'),
     },
-    {
-      imgSrc: "/images/Companies/mexc.svg",
-      heading: "Mexc",
-      type: t('daily'),
-      refcode: t('comming-soon'),
-      rate: t('comming-soon'),
-    },
+    
     {
       imgSrc: "/images/Companies/bybit.svg",
       heading: "Bybit",
@@ -98,7 +99,7 @@ const Work = () => {
               </h3>
               <div className="flex flex-row justify-between">
                 <p className="text-lg text-bluish font-normal text-center ">
-                  Type
+                  {t('type')}
                 </p>
                 <p className="text-lg text-bluish font-normal text-center ">
                   {items.type}
@@ -106,14 +107,14 @@ const Work = () => {
               </div>
               <div className="flex flex-row justify-between items-center">
                 <p className="text-lg text-bluish font-normal text-center ">
-                  RefCode
+                  {t('ref-code')}
                 </p>
                 <span
                   className={`text-xs text-bluish text-center ${
                     copied === items.refcode ? "" : "hidden"
                   }`}
                 >
-                  (Copied!)
+                  ({t('copied')}!)
                 </span>
                 <div
                   className="border p-2 rounded  text-bluish font-normal text-center cursor-pointer flex items-center"
@@ -137,7 +138,7 @@ const Work = () => {
               </div>
               <div className="flex flex-row justify-between">
                 <p className="text-lg text-bluish font-normal text-center mt-2">
-                  Cashback Rate
+                  {t('cashback-rate')}
                 </p>
                 <p className="text-lg text-bluish font-normal text-center mt-2">
                   {items.rate}
