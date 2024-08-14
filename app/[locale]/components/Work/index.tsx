@@ -156,11 +156,11 @@ const Work = () => {
                   {items.rate}
                 </p>
               </div>
-              <div className="flex flex-row justify-center">
+              {/* <div className="flex flex-row justify-center">
                 <button onClick={()=> open(items.link)} className="text-md font-normal text-bluish hover:text-white py-2 px-2 mt-2  border rounded-md">
                  {t('view-introduction')}
                 </button>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
