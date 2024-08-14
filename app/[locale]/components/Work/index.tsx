@@ -27,7 +27,7 @@ const Work = () => {
       imgSrc: "/images/Companies/kucoin.svg",
       heading: "Kucoin",
       type: t("daily"),
-      refcode: "QBS17VGV",
+      refcode: "QBAZ8EYH",
       rate: "≥ 60%",
       link: "https://youtube.com"
     },
