@@ -136,7 +136,6 @@ html:not([data-scroll="0"]) .navbar {
   border-radius: 20px;
   position: relative;
   transition: transform 100ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  height: 258px;
 }
 
 .card-b:hover {

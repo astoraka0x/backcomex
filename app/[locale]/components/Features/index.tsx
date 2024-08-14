@@ -28,7 +28,7 @@ const Features = () => {
         },
     ]
     return (
-        <div className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative" id="features-section">
+        <div className="mx-auto max-w-7xl mt-0 pt-48 mb-16 px-6 relative" id="features">
 
             <div className="radial-bg hidden lg:block"></div>
             <div className="grid lg:grid-cols-1 gap-x-4 gap-y-4">

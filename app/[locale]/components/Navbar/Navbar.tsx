@@ -24,16 +24,16 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const t = useTranslations("Navbar");
   const navigation: NavigationItem[] = [
-    { name: t("home"), href: "#home-section", current: false },
-    { name: t("exchange"), href: "#exchange-section", current: false },
-    { name: t("features"), href: "#features-section", current: false },
-    { name: t("faq"), href: "#faq-section", current: false },
+    { name: t("home"), href: "#home", current: false },
+    { name: t("exchange"), href: "#exchange", current: false },
+    { name: t("features"), href: "#features", current: false },
+    { name: t("faq"), href: "#faq", current: false },
   ];
   return (
     <Disclosure as="nav" className="navbar">
       <>
-        <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
-          <div className="relative flex h-12 sm:h-20 items-center">
+        <div className="mx-auto max-w-7xl p-2 md:p-2 lg:px-8">
+          <div className="relative flex h-10 sm:h-12 items-center">
             <div className="flex flex-1 items-center justify-between">
               {/* LOGO */}
 
@@ -71,7 +71,7 @@ const Navbar = () => {
                   ))}
                 </div>
               </div>
-              <button className="hidden lg:flex justify-end text-xl font-semibold py-4 px-6 lg:px-12 navbutton text-white">
+              <button className="hidden lg:flex justify-end text-xl font-semibold py-2 px-4 lg:px-6 navbutton text-white">
                 {t("check-your-refund")}
               </button>
                 <LocaleSwitcher />

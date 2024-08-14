@@ -9,76 +9,80 @@ interface workdata {
   type: string;
   refcode: string;
   rate: string;
+  link: string;
 }
-
 
 const Work = () => {
   const [copied, setCopied] = useState<string | null>(null);
-  
+
   const handleCopy = (refCode: string) => {
     navigator.clipboard.writeText(refCode);
     setCopied(refCode);
     setTimeout(() => setCopied(null), 3000); // Reset after 2 seconds
   };
 
-  const t= useTranslations('Work');
+  const t = useTranslations("Work");
   const workdata: workdata[] = [
     {
       imgSrc: "/images/Companies/kucoin.svg",
       heading: "Kucoin",
-      type: t('daily'),
+      type: t("daily"),
       refcode: "QBS17VGV",
-      rate: "≥ 60%"
+      rate: "≥ 60%",
+      link: "https://youtube.com"
     },
     {
       imgSrc: "/images/Companies/mexc.svg",
       heading: "Mexc",
-      type: t('daily'),
-      refcode: '157Mn',
+      type: t("daily"),
+      refcode: "157Mn",
       rate: "≥ 50%",
+      link: "https://youtube.com"
     },
     {
       imgSrc: "/images/Companies/binance.png",
       heading: "Binance",
-      type: t('daily'),
-      refcode: 'CPA_00ZE5IVVOS',
+      type: t("daily"),
+      refcode: "CPA_00ZE5IVVOS",
       rate: "≥ 40%",
+      link: "https://youtube.com"
     },
     {
       imgSrc: "/images/Companies/bybit.svg",
       heading: "Bybit",
-      type: t('daily'),
+      type: t("daily"),
       refcode: "YQ4GA",
-      rate: "≥ 50%"
+      rate: "≥ 50%",
+      link: "https://youtube.com"
     },
     {
       imgSrc: "/images/Companies/bitget.svg",
       heading: "Bitget",
-      type: t('daily'),
+      type: t("daily"),
       refcode: "5LBE1XD5",
-      rate: "≥ 70%"
+      rate: "≥ 70%",
+      link: "https://youtube.com"
     },
     {
       imgSrc: "/images/Companies/coinex.svg",
       heading: "Coinex",
-      type: t('daily'),
-      refcode: t('comming-soon'),
-      rate: t('comming-soon'),
+      type: t("daily"),
+      refcode: t("comming-soon"),
+      rate: t("comming-soon"),
+      link: "https://youtube.com"
     },
-    
-    
   ];
-  
+
   return (
-    <div id="exchange-section">
+    <div id="exchange" className="pt-20" >
       <div className="mx-auto max-w-7xl mt-16 px-6 mb-20 relative">
         <div className="radial-bgone hidden lg:block"></div>
         <div className="text-center mb-14">
           <h3 className="text-offwhite text-3xl md:text-5xl font-bold mb-3">
-            {t('how-it-work')}
+            {t("how-it-work")}
           </h3>
           <p className="text-bluish md:text-lg font-normal leading-8">
-           {t('how-it-work-explaind')}
+            {t("how-it-work-explaind")}
           </p>
         </div>
 
@@ -107,7 +111,7 @@ const Work = () => {
               </h3>
               <div className="flex flex-row justify-between">
                 <p className="text-lg text-bluish font-normal text-center ">
-                  {t('type')}
+                  {t("type")}
                 </p>
                 <p className="text-lg text-bluish font-normal text-center ">
                   {items.type}
@@ -115,14 +119,14 @@ const Work = () => {
               </div>
               <div className="flex flex-row justify-between items-center">
                 <p className="text-lg text-bluish font-normal text-center ">
-                  {t('ref-code')}
+                  {t("ref-code")}
                 </p>
                 <span
                   className={`text-xs text-bluish text-center ${
                     copied === items.refcode ? "" : "hidden"
                   }`}
                 >
-                  ({t('copied')}!)
+                  ({t("copied")}!)
                 </span>
                 <div
                   className="border p-2 rounded  text-bluish font-normal text-center cursor-pointer flex items-center"
@@ -146,11 +150,16 @@ const Work = () => {
               </div>
               <div className="flex flex-row justify-between">
                 <p className="text-lg text-bluish font-normal text-center mt-2">
-                  {t('cashback-rate')}
+                  {t("cashback-rate")}
                 </p>
                 <p className="text-lg text-bluish font-normal text-center mt-2">
                   {items.rate}
                 </p>
+              </div>
+              <div className="flex flex-row justify-center">
+                <button onClick={()=> open(items.link)} className="text-md font-normal text-bluish hover:text-white py-2 px-2 mt-2  border rounded-md">
+                 {t('view-introduction')}
+                </button>
               </div>
             </div>
           ))}

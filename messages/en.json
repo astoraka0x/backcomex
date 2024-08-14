@@ -46,6 +46,8 @@
     "type": "Type",
     "ref-code": "Ref Code",
     "copied": "Copied",
-    "cashback-rate": "Cashback Rate"
+    "cashback-rate": "Cashback Rate",
+    "Get_Started": "Get started",
+    "view-introduction": "View introduction"
   }
 }
