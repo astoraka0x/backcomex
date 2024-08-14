@@ -26,7 +26,7 @@ const data: Data[] = [
     imgSrc: "/images/Companies/bybit.svg",
   },
   {
-    imgSrc: "/images/Companies/binance.png",
+    imgSrc: "/images/Companies/bitget.svg",
   },
   // {
   //     imgSrc: "/images/Companies/shield.svg"
