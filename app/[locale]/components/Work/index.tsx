@@ -27,22 +27,36 @@ const Work = () => {
       imgSrc: "/images/Companies/kucoin.svg",
       heading: "Kucoin",
       type: t('daily'),
-      refcode: "34098-14",
-      rate: "50%",
+      refcode: "QBS17VGV",
+      rate: "≥ 60%"
     },
     {
       imgSrc: "/images/Companies/mexc.svg",
       heading: "Mexc",
       type: t('daily'),
-      refcode: '7393749',
-      rate: "50%",
+      refcode: '157Mn',
+      rate: "≥ 50%",
     },
     {
       imgSrc: "/images/Companies/binance.png",
       heading: "Binance",
       type: t('daily'),
-      refcode: t('comming-soon'),
-      rate: t('comming-soon'),
+      refcode: 'CPA_00ZE5IVVOS',
+      rate: "≥ 40%",
+    },
+    {
+      imgSrc: "/images/Companies/bybit.svg",
+      heading: "Bybit",
+      type: t('daily'),
+      refcode: "YQ4GA",
+      rate: "≥ 50%"
+    },
+    {
+      imgSrc: "/images/Companies/bitget.svg",
+      heading: "Bitget",
+      type: t('daily'),
+      refcode: "5LBE1XD5",
+      rate: "≥ 70%"
     },
     {
       imgSrc: "/images/Companies/coinex.svg",
@@ -52,13 +66,7 @@ const Work = () => {
       rate: t('comming-soon'),
     },
     
-    {
-      imgSrc: "/images/Companies/bybit.svg",
-      heading: "Bybit",
-      type: t('daily'),
-      refcode: t('comming-soon'),
-      rate: t('comming-soon'),
-    },
+    
   ];
   
   return (
