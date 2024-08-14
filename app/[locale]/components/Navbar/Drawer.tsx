@@ -27,9 +27,9 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
             >
 
                 <article className="relative w-340px max-w-lg pb-10 flex flex-col space-y-6 h-full">
-                    <header className="px-4 py-4 flex items-center justify-between">
+                    <header className="px-4 py-4 flex items-center justify-between bg-blue">
 
-                        <div className="flex flex-shrink-0 items-center">
+                        <div className="flex flex-shrink-0 items-center justify-center mx-auto">
                             <img
                                 className="block h-10 lg:hidden"
                                 src={'/images/Logo/logo.svg'}
