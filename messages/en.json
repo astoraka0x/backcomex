@@ -48,6 +48,7 @@
     "copied": "Copied",
     "cashback-rate": "Cashback Rate",
     "Get_Started": "Get started",
-    "view-introduction": "View introduction"
+    "view-introduction": "View introduction", 
+    "upto": "Upto {rate}"
   }
 }

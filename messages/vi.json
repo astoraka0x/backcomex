@@ -48,6 +48,7 @@
     "ref-code": "Mã giới thiệu",
     "type": "Kiểu",
     "Get_Started": "Bắt đầu",
-    "view-introduction": "Xem giới thiệu"
+    "view-introduction": "Xem giới thiệu",
+    "upto": "Tối đa {rate}"
   }
 }

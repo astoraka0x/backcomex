@@ -48,6 +48,7 @@
     "ref-code": "Kode Referensi",
     "type": "Jenis",
     "Get_Started": "Mulailah",
-    "view-introduction": "Lihat pendahuluan"
+    "view-introduction": "Lihat pendahuluan",
+    "upto": "Hingga {rate}"
   }
 }

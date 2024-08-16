@@ -28,15 +28,9 @@ const data: Data[] = [
   {
     imgSrc: "/images/Companies/bitget.svg",
   },
-  // {
-  //     imgSrc: "/images/Companies/shield.svg"
-  // },
-  // {
-  //     imgSrc: "/images/Companies/tandov.svg"
-  // },
-  // {
-  //     imgSrc: "/images/Companies/tree.svg"
-  // },
+  {
+    imgSrc: "/images/Companies/bingx.svg",
+  },
 ];
 
 // CAROUSEL SETTINGS

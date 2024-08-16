@@ -48,6 +48,7 @@
     "ref-code": "参考代码",
     "type": "类型",
     "Get_Started": "开始使用",
-    "view-introduction": "查看介绍"
+    "view-introduction": "查看介绍",
+    "upto": "高达 {rate}"
   }
 }

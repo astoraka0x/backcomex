@@ -28,7 +28,7 @@ const Work = () => {
       heading: "Kucoin",
       type: t("daily"),
       refcode: "QBAZ8EYH",
-      rate: "≥ 60%",
+      rate: t("upto", {rate: "70%"}),
       link: "https://youtube.com"
     },
     {
@@ -36,7 +36,7 @@ const Work = () => {
       heading: "Mexc",
       type: t("daily"),
       refcode: "157Mn",
-      rate: "≥ 50%",
+      rate: t("upto", {rate: "50%"}),
       link: "https://youtube.com"
     },
     {
@@ -44,7 +44,7 @@ const Work = () => {
       heading: "Binance",
       type: t("daily"),
       refcode: "CPA_00ZE5IVVOS",
-      rate: "≥ 40%",
+      rate: t("upto", {rate: "40%"}),
       link: "https://youtube.com"
     },
     {
@@ -52,7 +52,7 @@ const Work = () => {
       heading: "Bybit",
       type: t("daily"),
       refcode: "YQ4GA",
-      rate: "≥ 50%",
+      rate: t("upto", {rate: "50%"}),
       link: "https://youtube.com"
     },
     {
@@ -60,7 +60,15 @@ const Work = () => {
       heading: "Bitget",
       type: t("daily"),
       refcode: "5LBE1XD5",
-      rate: "≥ 70%",
+      rate: t("upto", {rate: "70%"}),
+      link: "https://youtube.com"
+    },
+    {
+      imgSrc: "/images/Companies/bingx.svg",
+      heading: "BingX",
+      type: t("daily"),
+      refcode: "NK9SS0",
+      rate: t("upto", {rate: "50%"}),
       link: "https://youtube.com"
     },
     {
