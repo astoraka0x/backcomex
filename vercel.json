@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/blog/:path*",  // Đường dẫn muốn rewrite
-        "destination": "https://blog.backcom.exchange/:path*"  // URL đến WordPress trên Hostinger
+        "source": "/blog/:path*", 
+        "destination": "https://blog.backcom.exchange/:path*" 
       }
     ]
   }
