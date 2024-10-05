@@ -28,6 +28,7 @@ const Navbar = () => {
     { name: t("exchange"), href: "#exchange", current: false },
     { name: t("features"), href: "#features", current: false },
     { name: t("faq"), href: "#faq", current: false },
+    { name: t("Blog"), href: "/blog", current: false },
   ];
   return (
     <Disclosure as="nav" className="navbar">

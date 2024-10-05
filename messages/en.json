@@ -32,7 +32,8 @@
     "exchange": "Exchange",
     "features": "Features",
     "faq": "FAQ",
-    "check-your-refund": "Check Your Refund"
+    "check-your-refund": "Check Your Refund",
+    "Blog": "Blog"
   },
   "Footer": {
     "connect-with-us": "Connect With US",
@@ -48,7 +49,7 @@
     "copied": "Copied",
     "cashback-rate": "Cashback Rate",
     "Get_Started": "Get started",
-    "view-introduction": "View introduction", 
+    "view-introduction": "View introduction",
     "upto": "Upto {rate}"
   }
 }
