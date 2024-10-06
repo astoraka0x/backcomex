@@ -4,5 +4,15 @@
         "source": "/blog/:path*", 
         "destination": "https://blog.backcom.exchange/:path*" 
       }
+    ],
+    "headers": [
+      {
+        "source": "/blog/:path*", 
+        "headers": [
+          { "key": "Host", "value": "backcom.exchange" },
+          { "key": "x-forwarded-host", "value": "backcom.exchange" },
+          { "key": "x-forwarded-proto", "value": "https" }
+        ]
+      }
     ]
   }
