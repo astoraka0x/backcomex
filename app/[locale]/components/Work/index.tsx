@@ -72,6 +72,14 @@ const Work = () => {
       link: "https://youtube.com"
     },
     {
+      imgSrc: "/images/Companies/toobit.svg",
+      heading: "Toobit",
+      type: t("daily"),
+      refcode: "backcomex",
+      rate: t("upto", {rate: "50%"}),
+      link: "https://youtube.com"
+    },
+    {
       imgSrc: "/images/Companies/coinex.svg",
       heading: "Coinex",
       type: t("daily"),
