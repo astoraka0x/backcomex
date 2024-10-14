@@ -27,49 +27,33 @@ const Work = () => {
       imgSrc: "/images/Companies/kucoin.svg",
       heading: "Kucoin",
       type: t("daily"),
-      refcode: "QBAZ8EYH",
-      rate: t("upto", {rate: "70%"}),
-      link: "https://youtube.com"
+      refcode: "Backcomex",
+      rate: t("upto", {rate: "60%"}),
+      link: "https://www.kucoin.com/r/af/Backcomex"
     },
     {
       imgSrc: "/images/Companies/mexc.svg",
       heading: "Mexc",
       type: t("daily"),
-      refcode: "157Mn",
+      refcode: "mexc-157Mn",
       rate: t("upto", {rate: "50%"}),
-      link: "https://youtube.com"
-    },
-    {
-      imgSrc: "/images/Companies/binance.png",
-      heading: "Binance",
-      type: t("daily"),
-      refcode: "CPA_00ZE5IVVOS",
-      rate: t("upto", {rate: "40%"}),
-      link: "https://youtube.com"
-    },
-    {
-      imgSrc: "/images/Companies/bybit.svg",
-      heading: "Bybit",
-      type: t("daily"),
-      refcode: "YQ4GA",
-      rate: t("upto", {rate: "50%"}),
-      link: "https://youtube.com"
+      link: "https://www.mexc.com/register?inviteCode=mexc-157Mn"
     },
     {
       imgSrc: "/images/Companies/bitget.svg",
       heading: "Bitget",
       type: t("daily"),
-      refcode: "5LBE1XD5",
-      rate: t("upto", {rate: "70%"}),
-      link: "https://youtube.com"
+      refcode: "9775849293",
+      rate: t("upto", {rate: "60%"}),
+      link: "https://www.bitget.com/vi/expressly?vipCode=9775849293"
     },
     {
       imgSrc: "/images/Companies/bingx.svg",
       heading: "BingX",
       type: t("daily"),
       refcode: "NK9SS0",
-      rate: t("upto", {rate: "50%"}),
-      link: "https://youtube.com"
+      rate: t("upto", {rate: "55%"}),
+      link: "https://bingx.com/invite/NK9SS0/"
     },
     {
       imgSrc: "/images/Companies/toobit.svg",
@@ -77,7 +61,7 @@ const Work = () => {
       type: t("daily"),
       refcode: "backcomex",
       rate: t("upto", {rate: "50%"}),
-      link: "https://youtube.com"
+      link: "https://www.toobit.com/t/backcomex"
     },
     {
       imgSrc: "/images/Companies/coinex.svg",
@@ -85,7 +69,23 @@ const Work = () => {
       type: t("daily"),
       refcode: t("comming-soon"),
       rate: t("comming-soon"),
-      link: "https://youtube.com"
+      link: "https://backcom.exchange"
+    },
+    {
+      imgSrc: "/images/Companies/binance.png",
+      heading: "Binance",
+      type: t("daily"),
+      refcode: t("comming-soon"),
+      rate: t("comming-soon"),
+      link: "https://backcom.exchange"
+    },
+    {
+      imgSrc: "/images/Companies/bybit.svg",
+      heading: "Bybit",
+      type: t("daily"),
+      refcode: t("comming-soon"),
+      rate: t("comming-soon"),
+      link: "https://backcom.exchange"
     },
   ];
 
@@ -172,11 +172,11 @@ const Work = () => {
                   {items.rate}
                 </p>
               </div>
-              {/* <div className="flex flex-row justify-center">
+              <div className="flex flex-row justify-center">
                 <button onClick={()=> open(items.link)} className="text-md font-normal text-bluish hover:text-white py-2 px-2 mt-2  border rounded-md">
                  {t('view-introduction')}
                 </button>
-              </div> */}
+              </div>
             </div>
           ))}
         </div>
