@@ -24,6 +24,14 @@ const Work = () => {
   const t = useTranslations("Work");
   const workdata: workdata[] = [
     {
+      imgSrc: "/images/Companies/bybit.svg",
+      heading: "Bybit",
+      type: t("daily"),
+      refcode: "97743",
+      rate: t("upto", {rate: "45%"}),
+      link: "https://partner.bybit.com/b/97743"
+    },
+    {
       imgSrc: "/images/Companies/kucoin.svg",
       heading: "Kucoin",
       type: t("daily"),
@@ -43,9 +51,9 @@ const Work = () => {
       imgSrc: "/images/Companies/bitget.svg",
       heading: "Bitget",
       type: t("daily"),
-      refcode: "9775849293",
-      rate: t("upto", {rate: "60%"}),
-      link: "https://www.bitget.com/vi/expressly?vipCode=9775849293"
+      refcode: "huhs",
+      rate: t("upto", {rate: "50%"}),
+      link: "https://partner.bitget.com/bg/WDRRBJ"
     },
     {
       imgSrc: "/images/Companies/bingx.svg",
@@ -79,14 +87,7 @@ const Work = () => {
       rate: t("comming-soon"),
       link: "https://backcom.exchange"
     },
-    {
-      imgSrc: "/images/Companies/bybit.svg",
-      heading: "Bybit",
-      type: t("daily"),
-      refcode: t("comming-soon"),
-      rate: t("comming-soon"),
-      link: "https://backcom.exchange"
-    },
+    
   ];
 
   return (
