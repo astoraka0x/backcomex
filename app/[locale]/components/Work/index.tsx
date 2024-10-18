@@ -72,6 +72,14 @@ const Work = () => {
       link: "https://www.toobit.com/t/backcomex"
     },
     {
+      imgSrc: "/images/Companies/lbank.svg",
+      heading: "LBank",
+      type: t("daily"),
+      refcode: "474SG",
+      rate: t("upto", {rate: "60%"}),
+      link: "https://www.lbank.com/en-US/login/?icode=474SG"
+    },
+    {
       imgSrc: "/images/Companies/coinex.svg",
       heading: "Coinex",
       type: t("daily"),

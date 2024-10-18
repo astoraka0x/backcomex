@@ -34,6 +34,9 @@ const data: Data[] = [
   {
     imgSrc: "/images/Companies/toobit.svg",
   },
+  {
+    imgSrc: "/images/Companies/lbank.svg",
+  },
 ];
 
 // CAROUSEL SETTINGS
